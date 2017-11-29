@@ -1,33 +1,20 @@
 <!DOCTYPE html>
+
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>LOGIN</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style_login.css">
-
-  
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style_login.css">
 </head>
 
-
 <body>
-	
   <div class="login-page">
   <div class="form">
-    <form class="register-form">
-      <input type="text" placeholder="name"/>
-      <input type="password" placeholder="password"/>
-      <input type="text" placeholder="email address"/>
-      <button>create</button>
-      <p class="message">Already registered? <a href="#">Sign In</a></p>
-    </form>
-    <form class="login-form">
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
+    <form class="login-form" method="POST" action="login.php">
+      <input type="text" placeholder="id" name="userid"/>
+      <input type="password" placeholder="password" name="userpw"/>
       <button>login</button>
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <p class="message">Not registered? <a href="register.html">Create an account</a></p>
     </form>
   </div>
 </div>
