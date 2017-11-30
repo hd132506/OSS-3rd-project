@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-
+<?php
+  session_start();
+  if(@$_SESSION['is_logged'] == 'YES') {
+    echo "<script>location.replace('membership.html');</script>";
+  }
+?>
 <html>
 <head>
   <meta charset="UTF-8">
