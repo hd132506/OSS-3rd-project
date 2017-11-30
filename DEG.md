@@ -1,6 +1,6 @@
 -------------------------------------
  < Development Encouragement Guide >
- Hello deer Developers, we are the g
+ Hello dear Developers, we are the g
  roup of Yushin. These days, it is i
  mportant to notice latest trend. We
  think the most intuitive way is exp
