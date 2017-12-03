@@ -1,7 +1,7 @@
 # Introduction
 -	We are developing Web Application ‘ERICAST’ for sharing and distributing card news contents.
 -	This app is Open source software that has Apache License 2.0.
--	You can check software guarantee and 'license.txt' if you want to get more information.
+-	You can check software guarantee and [license](https://github.com/hd132506/OSS-3rd-project/tree/master/license) if you want to get more information.
 
 # For developer       
 ### language
