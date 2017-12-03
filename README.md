@@ -17,8 +17,8 @@
   
 ### Code Convention
   - Indentation
-      html : 2 spaces
-      php : 1 tab
+  <br/>html : 2 spaces
+  <br/>php : 1 tab
   - Example
 ~~~
 <body>
@@ -34,6 +34,15 @@
     </form>
   </div>
 </div>
+~~~
+
+~~~
+<?php
+  include_once( 'db_info.php' );
+  $id = $_POST['usrid'];
+  $pw = md5( $_POST['usrpw'] );
+  $email = $_POST['useremail'];
+  $q = "INSERT INTO member (id, password, email, permission) VALUES('$id', '$pw', '$email', 'user')";
 ~~~
 
 ### How to contribute
