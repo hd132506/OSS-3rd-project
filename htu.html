@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>How To Use</title>
+<style>
+     .tooltip {
+        position: relative;
+        display: inline-block;
+
+    }
+    .tooltip .tooltiptext{
+        visibility: hidden;
+        width: 250px;
+        background-color: aliceblue;
+        color: black;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0;
+        /*position the tooltip*/
+        position: absolute;
+        z-index: 100;
+        top: -30px;
+        right: 105%;
+    }
+
+
+    .tooltip:hover .tooltiptext{
+        visibility: visible;
+    }
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/style_main.css">
+</head>
+
+<body>
+<header>
+  <a href="#" id="logo">
+    <h1>HOW TO USE</h1>
+    <h2>Hover your cursor on the right logo</h2>
+  </a>
+  <nav>
+    <ul>
+      <li>
+        <a href="#" class="selected">
+          <div class="tooltip">NEWS
+            <span class = "tooltiptext"><p>This button shows you some card news</p></span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="tooltip">LOGIN
+            <span class = "tooltiptext"><p>You can login when you click me!</p></span>
+          </div></a>
+        </li>
+      <li>
+        <a href="#">
+          <div class="tooltip">CREATE
+            <span class = "tooltiptext"><p>Want to create your own card news? Then just click me!</p></span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="tooltip">UPLOAD
+            <span class = "tooltiptext"><p>If you want to upload some pictures, click me!</p></span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div id="wrapper">
+  <section>
+    <ul id="gallery">
+      <li>
+        <a href="#">
+          <img src="slide/img/a/a-1.png" alt="">
+          <p>Welcome to ERICAST!</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="slide/img/b/b-1.png" alt="">
+          <p>Awesome cards, good news!</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+            <img src="slide/img/c/c-1.png" alt="">
+          <p>Look at this alpaca!</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="slide/img/d/d-1.png" alt="">
+          <p>Home sweet home...</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="slide/img/e/e-1.png" alt="">
+          <p>Having trouble with choosing lunch?</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <footer></footer>
+</div>
+</body>
+</html>
