@@ -1,8 +1,13 @@
 # Introduction
--	We are developing Web Application ‘ERICAST’ for sharing and distributing card news contents.
+-	We are developing Web Application ‘ERICAST’ for sharing and distributing 'Card News' contents.
 -	This app is Open source software that has Apache License 2.0.
 -	You can check software guarantee and [license](https://github.com/hd132506/OSS-3rd-project/tree/master/license) if you want to get more information.
-
+----
+### What is 'Card News'
+ - Card News is one of news form that consist of only some images.
+ - Card News has standard form that some images and 1~2 sentences inside each image.
+ - If you want to look at some example of 'Card News', visit [here](http://www.hanyang.ac.kr/web/eng/card-news) and look at some news.
+----
 # For developer       
 ### language
   - Front-end : html5(+css framework), javascript
