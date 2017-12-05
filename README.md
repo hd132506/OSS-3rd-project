@@ -1,17 +1,17 @@
 # Introduction
--	We are developing Web Application ‘ERICAST’ for sharing and distributing 'Card News' contents.
--	This app is Open source software that has Apache License 2.0.
--	You can check software guarantee and [license](https://github.com/hd132506/OSS-3rd-project/tree/master/license) if you want to get more information.
+-	We're developing Web Application ‘ERICAST’ for sharing and distributing 'Card news' contents.
+-	This app is applying Apache License 2.0.
+-	You can check software [license](https://github.com/hd132506/OSS-3rd-project/tree/master/license) if you want to get more information.
 ----
-### What is 'Card News'
- - Card News is one of news form that consist of only some images.
- - Card News has standard form that some images and 1~2 sentences inside each image.
- - If you want to look at some example of 'Card News', visit [here](http://www.hanyang.ac.kr/web/eng/card-news) and look at some news.
+### What is 'Card news'?
+ - A trendy form of news which consists of some images like 'Card'.
+ - It is simple enough to be shared via SNS like facebook, twitter and so on.
+ - Reference : [here](http://www.hanyang.ac.kr/web/eng/card-news)
 ----
-# For developer       
-### language
-  - Front-end : html5(+css framework), javascript
-  - Back-end : php
+# For developers       
+### Language & Environment
+  - Front-end : html5(+css framework including bootstrap), javascript, jquery
+  - Back-end : PHP5.6
   - Database : MySQL
  
 ### What to do
@@ -24,6 +24,7 @@
   - Indentation
   <br/>html : 2 spaces
   <br/>php : 1 tab
+  - We would follow the HTML style guide at [w3schools](https://www.w3schools.com/html/html5_syntax.asp)
   - Example
 ~~~
 <body>
@@ -51,5 +52,5 @@
 ~~~
 
 ### How to contribute
-  - Email or GitHub pull request
-  - We'll welcome Any feedback <3
+  - You can send email to ch20792457@gmail.com or use GitHub issue.
+  - We'll welcome Any feedback.
