@@ -26,7 +26,7 @@
   - Indentation
   <br/>html : 2 spaces
   <br/>php : 1 tab
-  - We would follow the HTML style guide at [w3schools](https://www.w3schools.com/html/html5_syntax.asp)
+  - We would follow the HTML style guide at [w3schools](https://www.w3schools.com/html/html5_syntax.asp) and PHP at [mediawiki](https://www.mediawiki.org/wiki/Manual:Coding_conventions/PHP)
   - Example
 ~~~
 <body>
