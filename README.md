@@ -10,6 +10,7 @@
 ----
 # For developers       
 ### Language & Environment
+  - Web server : Apache
   - Front-end : html5(+css framework including bootstrap), javascript, jquery
   - Back-end : PHP5.6
   - Database : MySQL
@@ -19,6 +20,7 @@
   - Additional function of Login (Checking password, Email verification, Finding password)
   - Managing user's own contents(Delete, Edit, and so on)
   - Searching by keywords
+  - Complete the DB
   
 ### Code Convention
   - Indentation
@@ -52,5 +54,7 @@
 ~~~
 
 ### How to contribute
-  - You can send email to ch20792457@gmail.com or use GitHub issue.
-  - We'll welcome Any feedback.
+1. Download this
+2. Set a server and database by ericast.sql file, and edit db_info.php as your status
+3. You can send email to ch20792457@gmail.com or use GitHub issue.
+4. We'll welcome Any feedback.
